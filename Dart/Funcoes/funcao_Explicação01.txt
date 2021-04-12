@@ -1,0 +1,19 @@
+funcao(p1,p2){
+    //leva 10s pra processar ==>p1
+    senteca #01
+    senteca #02
+    senteca #03
+    senteca #04
+    senteca #05
+    //leva 5s pra processar ==>p2
+    senteca #06
+    senteca #07
+    senteca #08
+    senteca #09
+}
+
+funcao(3,17);//15s
+funcao(3,5);//15s
+funcao(3,13);//15s
+
+total:45s

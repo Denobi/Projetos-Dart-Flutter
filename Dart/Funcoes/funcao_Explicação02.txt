@@ -1,0 +1,34 @@
+funcaoFora(p1){
+    //leva 10s pra processar ==>p1
+    senteca #01
+    senteca #02
+    senteca #03
+    senteca #04
+    senteca #05
+
+    return(p2){
+    //leva 5s pra processar ==>p2
+    senteca #06
+    senteca #07
+    senteca #08
+    senteca #09
+    }
+
+}
+
+//Nesse exemplo nós executamos a funcaoFora primeiro e depois se quiser chamo a segunda função
+funcaoFora(3)(17);
+funcaoFora(3)(5);
+funcaoFora(3)(13);
+
+//Nesse exemplo criamos uma variavel que chama a funcaoFora e armazena o valor 3
+//a segunda chama leva o tempo normal porem a primeira funcao já processa x vezes 
+//por estar fora 
+//isso permite atrasar a execução 
+var funcaoForaCom3= funcaoFora(3);
+funcaoForaCom3(17);
+funcaoForaCom3(5);
+funcaoForaCom3(13);
+
+
+//executa 3 vezes a funcao 1 = funcaoFora salva os dados e depois executa as outras e junta tudo na funcaoForaCom3
